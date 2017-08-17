@@ -14,6 +14,10 @@ router.get('/', function(req, res, next) {
   res.render('index');
 });
 
+router.get('/team', function(req, res, next) {
+  res.render('team');
+});
+
 router.get('/login', passport.authenticate('auth0', {
   clientID: env.AUTH0_CLIENT_ID,
   domain: env.AUTH0_DOMAIN,
