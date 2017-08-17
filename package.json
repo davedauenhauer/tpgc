@@ -21,6 +21,7 @@
     "passport": "^0.3.0",
     "passport-auth0": "^0.6.0",
     "pug": "~2.0.0-beta11",
+    "ejs": "2.5.6",
     "serve-favicon": "^2.4.0"
   }
 }
