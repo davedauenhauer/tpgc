@@ -14,8 +14,8 @@ router.get('/', function(req, res, next) {
   res.render('index');
 });
 
-router.get('/team', function(req, res, next) {
-  res.render('team');
+router.get('/about', function(req, res, next) {
+  res.render('about');
 });
 
 router.get('/login', passport.authenticate('auth0', {

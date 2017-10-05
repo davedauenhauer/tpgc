@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<title>TPGC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.bgimg {background-image: url("https://res.cloudinary.com/hqzzct2yz/image/upload/v1507163974/20170902_133854_idcqud.jpg")}
+.bgimg2 {background-image: url("/w3images/flowers.jpg")}
+</style>
+<body id="myPage">
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-container w3-display-bottomright w3-margin-bottom">
+    <button  class="w3-button w3-xxxlarge w3-theme w3-hover-teal" title="Go To W3.CSS">About Us</button>
+    <!--<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xxxlarge w3-theme w3-hover-teal" title="Go To W3.CSS">Therapy Pets of Greater Cincinnati</button>-->
+  </div>
+</header>
+
+<script type="text/javascript" src="node_modules/auth0-js/build/auth0.js"></script>
+<!-- Sidebar on click -->
+<!--<nav class="w3-sidebar w3-bar-block w3-white w3-card-2 w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+</nav> -->
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="/" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="#aboutGroup" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About Our Group</a>
+  <a href="#mission" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Mission Statement</a>
+  <a href="#board" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Board of Directors</a>
+
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Modal -->
+<!-- <div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container">
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div> -->
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="aboutGroup">
+<h2>About Our Group</h2>
+<h4>
+Therapy Pets of Greater Cincinnati is a non-profit organization founded in 2004 as the tri-state resource for the human-animal bond and to validate the important role of animals for people's health and well-being. We have strict guidelines for evaluating volunteer Therapy Animal teams and providing Animal-Assisted Activities and Animal Assisted Therapy services.
+
+We train volunteers and screen pets to visit acute, rehabilitation and palliative healthcare facilities, group homes and schools throughout the Greater Cincinnati/Northern Kentucky Metro area. Our current membership of quality teams includes over 200 volunteers and their dogs and other pets. Therapy Pets of Greater Cincinnati values our animals’ safety and welfare as our highest priority while helping our pets to share their unconditional love with others. Client confidentiality, including compliance with HIPAA regulations, is assured.
+
+We have been recognized by the Internal Revenue Service as a not-for-profit organization under Section 501(c)(3) since March, 2005, and are further classified as a public charity under Section 170(b)(1)(A)(vi). Donations to our organization may be fully deductible, but please check first with a qualified tax professional.
+</h4>
+</div>
+
+<div class="w3-container w3-padding-64 w3-center" id="mission">
+<h2>Mission Statement</h2>
+<h4>
+  Through our trained Therapy Animal teams, the members of Therapy Pets of Greater Cincinnati are able to provide unconditional love, emotional support, comfort, joy, and a pleasant distraction from the everyday stresses in life by allowing our pets to interact and bond with the people they meet. We strive to make a positive difference in the lives we touch in all the facilities we visit, including health care facilities, retirement communities, and schools, while we educate the community about the significant value of the human-animal bond.
+</h4>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="board">
+<h2>Board of Directors</h2>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter w3-padding-64">
+  <img src="http://res.cloudinary.com/hqzzct2yz/image/upload/v1507166168/Glenna_bs8tak.jpg" alt="Boss" style="height:245px" class="w3-circle w3-hover-opacity">
+</div>
+
+<div class="w3-half w3-padding-32">
+  <h3>Glenna Mockbee, Executive Director</h3>
+  <p>I have been doing therapy work for 27 years, have been a Therapy Team since 2000 with Delta Society which is now Pet Partners.  Licensed Evaluator since 2004 and a Pet Partner Instructor since 2007,  the same year I founded Therapy Pets of Greater Cincinnati. I am also the group Speaker and Representative to the Community.  We started in 2004 with a handful of Therapy Teams and have grown to over 200 members since then.  In addition, I started the Therapy Dog Program at Shriners  Burn Hospital for Children in Cincinnati, and I am the head of the Ronald McDonald House Program.  I am also certified with the American Red Cross disaster Relief Team in Cincinnati. My Pet Partners are an active therapy team currently visiting Oncology, Neurology, Pediatrics, and Burn units at all the local Hospital.  For the last few years all 5 of my Therapy Pets and myself have been very active working with Children with Special Needs, we go to local schools to help in the class rooms.  Our goals are a smile, a word, a laugh, a deep breath, a hand reaching, a trust, a step forward, a sense of self-worth, a walk outside, a small change that makes a big difference.</p>
+</div>
+</div>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter w3-padding-64">
+  <img src="http://res.cloudinary.com/hqzzct2yz/image/upload/v1507166663/personicon_af7isx.webp" alt="Boss" style="height:245px" class="w3-circle w3-hover-opacity">
+</div>
+
+<div class="w3-half w3-padding-32">
+  <h3>Bob Murray, President</h3>
+  <p>My name is Bob Murray and I am currently your President for the Therapy Pets of Greater Cincinnati.  I have been a member of your organization for the past few years and I have enjoyed every minute.  I started with my German Shepard mix (Lexi) and I am now roaming the halls of various hospitals and schools with my little munchkin dog, Meeko.
+
+As a member of the Board, it is my goal to find ways to facilitate the enjoyment that we all receive while we’re working our pets.  The rewards for our efforts are as simple as the countless smiles that we receive when sharing our pets with patients (and staff) in a hospital or with children at a school.  Ours truly is a labor of love … both shared and received.
+
+If you have any ideas that will enhance our organization or which will make your life as a pet team easier, please do not hesitate to contact me.  I’ll be more than happy to do whatever I can to help.  Thanks and take care.</p>
+</div>
+</div>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter w3-padding-64">
+  <img src="http://res.cloudinary.com/hqzzct2yz/image/upload/v1507166663/personicon_af7isx.webp" alt="Boss" style="height:245px" class="w3-circle w3-hover-opacity">
+</div>
+
+<div class="w3-half w3-padding-32">
+  <h3>Joy Fotsch, Vice President</h3>
+  <p>I have been a member of TPGC since 2009. I am an occupational therapist and my pet partner, Lucy, is a diva. I  help with the testing sessions and the volunteer luncheon. Lucy and I volunteer and mentor for TPGC at St. Elizabeth's Hospital and The Christ Hospital. Lucy and I can also be found doing presentations to boy scout troops, grade school and high schools in Northern Kentucky. I have been on the board for since 2013, first as a trustee, then following some big footsteps, when Bob Murray became President, I was asked to fulfill the rest of his term.  This is your organization, so please let me know what we can do to make this organization better for everyone. Thank you</p>
+</div>
+</div>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter w3-padding-64">
+  <img src="http://res.cloudinary.com/hqzzct2yz/image/upload/v1507166663/personicon_af7isx.webp" alt="Boss" style="height:245px" class="w3-circle w3-hover-opacity">
+</div>
+
+<div class="w3-half w3-padding-32">
+  <h3>Lisa Ackels, Treasurer</h3>
+  <p>Henry and I have been involved with TPGC since October 2013 & I have been Treasurer since June 2016. I also help coordinate visits at the University of Cincinnati. After I saw the therapy dogs working when my mom was in hospice in 2003, I knew this was something I'd like to pay forward if I ever had a dog that had the skills and temperament, and Henry definitely does! I have a Social Work degree from UC, worked for years in various aspects of the medical field, last & most favorite job as a patient advocate. I have 2 children and my husband and I have 9 grandchildren between us. I am excited to be more involved with TPGC and hope to continue to see our group and the services we provide, grow. Proud to be part of such a wonderful group of handlers and animals!</p>
+</div>
+</div>
+
+
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="https://www.facebook.com/Therapy-Pets-of-Greater-Cincinnati-324108054289534/?ref=page_internal" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
