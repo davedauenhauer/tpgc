@@ -22,13 +22,14 @@ p {line-height: 2}
 <body id="myPage">
 <header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
   <div class="w3-container w3-display-bottomright w3-margin-bottom">
-    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xxxlarge w3-theme w3-hover-teal" title="Go To W3.CSS">Therapy Pets of Greater Cincinnati</button>
+    <button  class="w3-button w3-xxxlarge w3-theme w3-hover-teal" title="Go To W3.CSS">Therapy Pets of Greater Cincinnati</button>
+    <!--<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xxxlarge w3-theme w3-hover-teal" title="Go To W3.CSS">Therapy Pets of Greater Cincinnati</button>-->
   </div>
 </header>
 
 <script type="text/javascript" src="node_modules/auth0-js/build/auth0.js"></script>
 <!-- Sidebar on click -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-card-2 w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+<!--<nav class="w3-sidebar w3-bar-block w3-white w3-card-2 w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
     <i class="fa fa-remove"></i>
   </a>
@@ -37,7 +38,7 @@ p {line-height: 2}
   <a href="#" class="w3-bar-item w3-button">Link 3</a>
   <a href="#" class="w3-bar-item w3-button">Link 4</a>
   <a href="#" class="w3-bar-item w3-button">Link 5</a>
-</nav>
+</nav> -->
 
 <!-- Navbar -->
 <div class="w3-top">
@@ -70,7 +71,7 @@ p {line-height: 2}
 </div>
 
 <!-- Modal -->
-<div id="id01" class="w3-modal">
+<!-- <div id="id01" class="w3-modal">
   <div class="w3-modal-content w3-card-4 w3-animate-top">
     <header class="w3-container w3-teal w3-display-container">
       <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
@@ -85,7 +86,7 @@ p {line-height: 2}
       <p>Modal footer</p>
     </footer>
   </div>
-</div>
+</div> -->
 
 <!-- Team Container -->
 <div class="w3-container w3-padding-64 w3-center" id="team">
@@ -174,22 +175,94 @@ p {line-height: 2}
 </div>
 
 <!-- Container -->
-<div class="w3-container" style="position:relative">
+<!--<div class="w3-container" style="position:relative">
   <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
   style="position:absolute;top:-28px;right:24px">+</a>
-</div>
+</div>-->
 
-<!-- Pricing Row -->
-<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
-    <h2>Calendar</h2>
-    <p>These are past and upcoming events</p><br>
-    <img src="http://res.cloudinary.com/hqzzct2yz/image/upload/v1499994005/calendar_opvnbj.jpg"
-    <div class="w3-whole w3-margin-top">
-      <ul class="w3-ul w3-border w3-hover-shadow">
-        <li class="w3-theme">
-        </li>
-      </ul>
+<!-- Upcoming Events Section -->
+
+<!-- Posts -->
+<div class="w3-white w3-margin">
+  <div class="w3-container w3-padding w3-black">
+    <h4>Upcoming Events</h4>
+  </div>
+  <ul class="w3-ul w3-hoverable w3-white">
+    <li class="w3-padding-16">
+      <img src="http://res.cloudinary.com/hqzzct2yz/image/upload/v1507161310/OH-BethesdaNorthHosptial_d85d2b60e76f78a081ac2dce69ef2667_urnet8.png" alt="Image" class="w3-left w3-margin-right" style="width:75px">
+      <span class="w3-large">Testing at Bethesda North             Sat Oct 28,     Sun Nov 19,     Sun Dec 3</span>
+      <br>
+      <span>9-3, Must call for appointment  Bethesda North Hospital  Must have done the work shop or the on line course to be tested for Therapy Work
+Contact: <a href="mailto:gmockbee@fuse.net">Glenna</a></span>
+    </li>
+    <li class="w3-padding-16">
+      <img src="https://res.cloudinary.com/hqzzct2yz/image/upload/c_scale,h_152/v1507162093/dogicon_tmeeyw.png" alt="Image" class="w3-left w3-margin-right" style="width:75px">
+      <span class="w3-large">Testing at Locust Corner Church.  917 Locust Corner, Cincinnati, OH  Sat Oct 14, Sat Dec 9 </span>
+      <br>
+      <span>9-3, Must call for appointment  Bethesda North Hospital  Must have done the work shop or the on line course to be tested for Therapy Work
+Contact: <a href="mailto:gmockbee@fuse.net">Karen</a>  <br> Dates in 2018:  Jan. 20 Feb. 17 Mar. 24 Apr. 21 June 23 July 21 Aug. 25 Sept. 22 Oct. 27 Dec. 15</span>
+    </li>
+    <li class="w3-padding-16">
+      <img src="http://res.cloudinary.com/hqzzct2yz/image/upload/v1507161310/OH-BethesdaNorthHosptial_d85d2b60e76f78a081ac2dce69ef2667_urnet8.png" alt="Image" class="w3-left w3-margin-right" style="width:75px">
+      <span class="w3-large">Workshop at Bethesda North  Sun Nov 5</span>
+      <br>
+      <span>9-3, Must call for appointment  Bethesda North Hospital  Must have done the work shop or the on line course to be tested for Therapy Work
+Contact: <a href="mailto:gmockbee@fuse.net">Glenna</a></span>
+    </li>
+    <li class="w3-padding-16">
+      <img src="https://res.cloudinary.com/hqzzct2yz/image/upload/c_scale,h_152/v1507162093/dogicon_tmeeyw.png" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:75px">
+      <span class="w3-large">Workshop at Locust Corner Church  917 Locust Corner, Cincinnati, OH  Sat Nov 4,    </span>
+      <br>
+      <span>9-3, Must call for appointment  Bethesda North Hospital  Must have done the work shop or the on line course to be tested for Therapy Work
+Contact: <a href="mailto:gmockbee@fuse.net">Karen</a></span>
+    </li>
+  </ul>
+</div>
+<hr>
+
+
+
+<div class="w3-black" id="tour">
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+    <h2 class="w3-wide w3-center">Upcoming Events</h2>
+    <p class="w3-opacity w3-center"><i>Please let us know about any others!</i></p><br>
+
+    <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <!---  <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">  -->
+        <div class="w3-container w3-white">
+          <p><b>Mason Schools Exam Week</b></p>
+          <p class="w3-opacity">Fri 7 October 2017</p>
+          <p>Destress Everyone.</p>
+
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-container w3-white">
+          <p><b>Children's Hospital</b></p>
+          <p class="w3-opacity">Sat 18 October 2017</p>
+          <p>See our favorite patients.</p>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-container w3-white">
+          <p><b>City Barbeque</b></p>
+          <p class="w3-opacity">Sun 29 October 2017</p>
+          <p>Because dogs need to eat.</p>
+          <!-- <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Sign Up</button> -->
+        </div>
+      </div>
     </div>
+
+    <ul class="w3-ul w3-border w3-white w3-text-grey">
+      <li class="w3-padding">November
+        <ul><span class="w3-tag w3-margin-left">Monday 16th  St. Xavier Exam Destress</span><br>
+          <span class="w3-tag w3-margin-left">Thursday 20th  Sycamore Exam Destress</span></ul>
+      </li>
+      <li class="w3-padding">December <span class="w3-tag w3-margin-left">Tuesday 4th   Children's Hospital Downtown</span></li>
+      <!-- <li class="w3-padding">December <span class="w3-badge w3-right w3-margin-right">3</span></li>  -->
+    </ul>
+  </div>
 </div>
 
 <!-- Contact Container -->
@@ -198,7 +271,7 @@ p {line-height: 2}
     <div class="w3-col m5">
     <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
       <h3>Address</h3>
-      <p>Swing by for some therapy dogs.</p>
+      <p>We would love to hear from you.</p>
       <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Cincinnati, US</p>
       <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +00 1234567890</p>
       <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  test@test.com</p>
