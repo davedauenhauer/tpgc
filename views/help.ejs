@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<title>TPGC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.bgimg {background-image: url("http://res.cloudinary.com/hqzzct2yz/image/upload/v1510350425/masonChristian_ncky9n.jpg")}
+.bgimg2 {background-image: url("/w3images/flowers.jpg")}
+</style>
+<body id="myPage">
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-container w3-display-bottomright w3-margin-bottom">
+    <button  class="w3-button w3-xxxlarge w3-theme w3-hover-teal" title="Therapy Pets of Greater Cincinnati">How You Can Help</button>
+  </div>
+</header>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="/" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+
+  </div>
+</div>
+
+<!-- help Container -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="help">
+
+  <div class="w3-container w3-padding-64 w3-center">
+    <h2>How You Can Help</h2>
+
+  </div>
+
+  <div class="w3-row w3-margin"><br>
+
+    <h2>1.  Donate Online</h2>
+    <h4>
+      You can make a secure donation on this website through PayPal, using your PayPal account or a major credit card. You do not need a
+      PayPal account to donate.  You can include a note or designate your donation "in memory" or "tribute" to a loved one or pet.  Click
+      the PayPal icon at the bottom of each page on our site, or click this link.
+    </h4>
+    <br><br><br>
+    <h2>2.  Donate by Mail</h2>
+    <h4>
+      If you prefer, you can send donations to the following address. Make checks payable to Therapy Pets of Greater Cincinnati.<br><br>
+        Therapy Pets of Greater Cincinnati<br>
+        P.O. Box 1392<br>
+        West Chester, OH 45071<br>
+    </h4>
+    <br><br><br>
+    <h2>3.  Wish List</h2>
+    <h4>
+      We are in need of the following. Contact us for more detailed information.
+      <ul>
+        <li>Location to hold meetings or Therapy Team Evaluations</li>
+        <li>Tablets and software to aid in working with special needs children</li>
+        <li>Donation of copy/print services for workshop handouts</li>
+        <li>Promotional giveaway products to help promote our group</li>
+        <li>Contact us about other special equipment or needs (for workshops, etc.)</li>
+      </ul>
+    </h4>
+    <br><br><br>
+
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <div class="w3-half w3-container">
+    <h4>Follow Us</h4>
+    <a class="w3-button w3-large w3-teal" href="https://www.facebook.com/Therapy-Pets-of-Greater-Cincinnati-324108054289534/?ref=page_internal" title="Facebook"><i class="fa fa-facebook"></i></a>
+  </div>
+  <div>
+    <h4>Donate</h4>
+    <a class="w3-button w3-large w3-teal" href="https://www.facebook.com/Therapy-Pets-of-Greater-Cincinnati-324108054289534/?ref=page_internal" title="Paypal"><i class="fa fa-paypal"></i></a>
+  </div>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

@@ -18,6 +18,26 @@ router.get('/about', function(req, res, next) {
   res.render('about');
 });
 
+router.get('/facilities', function(req, res, next) {
+  res.render('facilities');
+});
+
+router.get('/getin', function(req, res, next) {
+  res.render('getin');
+});
+
+router.get('/help', function(req, res, next) {
+  res.render('help');
+});
+
+router.get('/tales', function(req, res, next) {
+  res.render('tales');
+});
+
+router.get('/faq', function(req, res, next) {
+  res.render('faq');
+});
+
 router.get('/login', passport.authenticate('auth0', {
   clientID: env.AUTH0_CLIENT_ID,
   domain: env.AUTH0_DOMAIN,
