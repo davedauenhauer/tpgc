@@ -1,0 +1,7 @@
+{
+  "name": "tpgc",
+  "version": "0.0.0",
+  "dependencies": {
+    "pf-calendar-events": "PFElements/pf-calendar-events#^0.3.0"
+  }
+}
