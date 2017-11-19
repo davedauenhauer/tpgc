@@ -7,7 +7,11 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="import" href="../bower_components/pf-calendar-events/pf-calendar-events.html">
+
+<script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link rel="import" href="/bower_components/pf-calendar-events/pf-calendar-events.html">
+  <link rel="import" href="/bower_components/mp-calendar/mp-calendar.html">
 
 <style>
 body,h1,h2{font-family: "Raleway", sans-serif}
@@ -88,14 +92,7 @@ p {line-height: 2}
 
 <!-- Welcome -->
 
-<pf-calendar-events
-                  calendarstyle="classic-calendar">
-
-
-</pf-calendar-events>
-
 <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="welcome">
-
 <div class="w3-row"><br>
 <h2>Welcome</h2>
 <p>Therapy Pets of Greater Cincinnati is an all-volunteer group of over 200 volunteer Therapy Teams that provide Animal Assisted Activities (AAA) and Animal-Assisted Therapy (AAT) to clients throughout the Greater Cincinnati/Northern Kentucky metro area. We are proud to be a Community Partner with Pet Partners® (formerly known as the Delta Society®) organization.
@@ -112,43 +109,58 @@ Browse through our website to learn more and see how you can become involved.</p
 
 <!-- Upcoming Events Section -->
 
-
-
-<div class="w3-white w3-margin" id="events">
-  <div class="w3-container w3-padding w3-black">
-    <h4>Upcoming Events</h4>
-  </div>
-  <ul class="w3-ul w3-hoverable w3-white">
-    <li class="w3-padding-16">
-      <img src="http://res.cloudinary.com/hqzzct2yz/image/upload/v1507161310/OH-BethesdaNorthHosptial_d85d2b60e76f78a081ac2dce69ef2667_urnet8.png" alt="Image" class="w3-left w3-margin-right" style="width:75px">
-      <span class="w3-large">Testing at Bethesda North             Sat Oct 28,     Sun Nov 19,     Sun Dec 3</span>
-      <br>
-      <span>9-3, Must call for appointment  Bethesda North Hospital  Must have done the work shop or the on line course to be tested for Therapy Work
-Contact: <a href="mailto:gmockbee@fuse.net">Glenna</a></span>
-    </li>
-    <li class="w3-padding-16">
-      <img src="https://res.cloudinary.com/hqzzct2yz/image/upload/c_scale,h_152/v1507162093/dogicon_tmeeyw.png" alt="Image" class="w3-left w3-margin-right" style="width:75px">
-      <span class="w3-large">Testing at Locust Corner Church.  917 Locust Corner, Cincinnati, OH  Sat Oct 14, Sat Dec 9 </span>
-      <br>
-      <span>9-3, Must call for appointment  Bethesda North Hospital  Must have done the work shop or the on line course to be tested for Therapy Work
-Contact: <a href="mailto:gmockbee@fuse.net">Karen</a>  <br> Dates in 2018:  Jan. 20 Feb. 17 Mar. 24 Apr. 21 June 23 July 21 Aug. 25 Sept. 22 Oct. 27 Dec. 15</span>
-    </li>
-    <li class="w3-padding-16">
-      <img src="http://res.cloudinary.com/hqzzct2yz/image/upload/v1507161310/OH-BethesdaNorthHosptial_d85d2b60e76f78a081ac2dce69ef2667_urnet8.png" alt="Image" class="w3-left w3-margin-right" style="width:75px">
-      <span class="w3-large">Workshop at Bethesda North  Sun Nov 5</span>
-      <br>
-      <span>9-3, Must call for appointment  Bethesda North Hospital  Must have done the work shop or the on line course to be tested for Therapy Work
-Contact: <a href="mailto:gmockbee@fuse.net">Glenna</a></span>
-    </li>
-    <li class="w3-padding-16">
-      <img src="https://res.cloudinary.com/hqzzct2yz/image/upload/c_scale,h_152/v1507162093/dogicon_tmeeyw.png" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:75px">
-      <span class="w3-large">Workshop at Locust Corner Church  917 Locust Corner, Cincinnati, OH  Sat Nov 4,    </span>
-      <br>
-      <span>9-3, Must call for appointment  Bethesda North Hospital  Must have done the work shop or the on line course to be tested for Therapy Work
-Contact: <a href="mailto:gmockbee@fuse.net">Karen</a></span>
-    </li>
-  </ul>
+<div class="w3-row"><br>
+  <h2>Upcoming Events</h2>
 </div>
+
+<div class="w3-row w3-padding-large">
+  <div class="w3-half">
+    <mp-calendar day-labels='["Su","Mo","Tu","We","Th","Fr","Sa"]'
+                 events-file=/bower_components/demo/events.json
+                 >
+    </mp-calendar>
+  </div>
+  <div class="w3-half">
+    <div class="w3-white w3-margin" id="events">
+      <div class="w3-container w3-padding w3-black">
+        <h4>Upcoming Events</h4>
+      </div>
+      <ul class="w3-ul w3-hoverable w3-white">
+        <li class="w3-padding-16">
+          <img src="http://res.cloudinary.com/hqzzct2yz/image/upload/v1507161310/OH-BethesdaNorthHosptial_d85d2b60e76f78a081ac2dce69ef2667_urnet8.png" alt="Image" class="w3-left w3-margin-right" style="width:75px">
+          <span class="w3-large">Testing at Bethesda North             Sat Oct 28,     Sun Nov 19,     Sun Dec 3</span>
+          <br>
+          <span>9-3, Must call for appointment  Bethesda North Hospital  Must have done the work shop or the on line course to be tested for Therapy Work
+    Contact: <a href="mailto:gmockbee@fuse.net">Glenna</a></span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="https://res.cloudinary.com/hqzzct2yz/image/upload/c_scale,h_152/v1507162093/dogicon_tmeeyw.png" alt="Image" class="w3-left w3-margin-right" style="width:75px">
+          <span class="w3-large">Testing at Locust Corner Church.  917 Locust Corner, Cincinnati, OH  Sat Oct 14, Sat Dec 9 </span>
+          <br>
+          <span>9-3, Must call for appointment  Bethesda North Hospital  Must have done the work shop or the on line course to be tested for Therapy Work
+    Contact: <a href="mailto:gmockbee@fuse.net">Karen</a>  <br> Dates in 2018:  Jan. 20 Feb. 17 Mar. 24 Apr. 21 June 23 July 21 Aug. 25 Sept. 22 Oct. 27 Dec. 15</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="http://res.cloudinary.com/hqzzct2yz/image/upload/v1507161310/OH-BethesdaNorthHosptial_d85d2b60e76f78a081ac2dce69ef2667_urnet8.png" alt="Image" class="w3-left w3-margin-right" style="width:75px">
+          <span class="w3-large">Workshop at Bethesda North  Sun Nov 5</span>
+          <br>
+          <span>9-3, Must call for appointment  Bethesda North Hospital  Must have done the work shop or the on line course to be tested for Therapy Work
+    Contact: <a href="mailto:gmockbee@fuse.net">Glenna</a></span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="https://res.cloudinary.com/hqzzct2yz/image/upload/c_scale,h_152/v1507162093/dogicon_tmeeyw.png" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:75px">
+          <span class="w3-large">Workshop at Locust Corner Church  917 Locust Corner, Cincinnati, OH  Sat Nov 4,    </span>
+          <br>
+          <span>9-3, Must call for appointment  Bethesda North Hospital  Must have done the work shop or the on line course to be tested for Therapy Work
+    Contact: <a href="mailto:gmockbee@fuse.net">Karen</a></span>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
 <hr>
 
 <!-- Contact Container -->
