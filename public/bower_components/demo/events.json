@@ -1,64 +1,28 @@
 [
     {
-        "title": "Testing at Bethesda North",
-        "content": "Call Glenna for deatils... starts @ 15:40",
-        "date": "2017-11-01",
-        "end": "2017-07-03",
-        "category": "red",
-        "color": "#d60000"
+        "title": "Pet Partner Testing",
+        "content": "must email or a time  Bethesda Noth Hospital  must have completed a work shop oe a on line course.  Contact Glenna",
+        "date": "2017-11-19",
+        "category": "blue",
+        "color": "#1386c9"
     },
     {
-        "title": "Orange style category",
-        "content": "Just a reminder",
-        "date": "2017-11-06",
-        "category": "orange"
-    },
-    {
-        "title": "Green style category",
-        "content": "Another reminder",
-        "date": "2017-11-10",
+        "title": "PP Evaluation",
+        "content": "Call for a time  Locust Corner Church  917 Locust Corner Rd. Cincinnati, Ohio 45245.  Contact Karen",
+        "date": "2018-01-20",
         "category": "green"
     },
     {
-        "title": "Blue style category",
-        "content": "Doctor's appointment at 20:00",
-        "date": "2017-11-18",
+        "title": "PP Evaluation",
+        "content": "Call for a time  Locust Corner Church  917 Locust Corner Rd. Cincinnati, Ohio 45245.  Contact Karen",
+        "date": "2017-12-09",
+        "category": "green"
+    },
+    {
+        "title": "Pet Partner Testing",
+        "content": "must email for a time  Bethesda North Hospital  Must have done a PPWork Shop or a long Line Course- call for a testing time  Contact Glenna",
+        "date": "2017-12-03",
         "category": "blue",
         "color": "#1386c9"
-    },
-    {
-        "title": "Blue style category",
-        "content": "cotnent in blue category event",
-        "date": "2017-11-21",
-        "category": "blue",
-        "color": "#1386c9"
-    },
-    {
-        "title": "Green style category",
-        "content": "",
-        "date": "2017-11-21",
-        "category": "green",
-        "color": "#9cb703"
-    },
-    {
-        "title": "Red style category",
-        "content": "Meeting at 20:00",
-        "date": "2017-11-21",
-        "category": "red",
-        "color": "#d60000"
-    },
-    {
-        "title": "Orange style category",
-        "content": "Canceled: Scrum meeting",
-        "date": "2017-11-30",
-        "category": "orange",
-        "color": "#f5a739"
-    },
-    {
-        "title": "Orange style category",
-        "content": "Schedule skype call",
-        "date": "2017-11-27",
-        "category": "orange",
-        "color": "#f5a739"
     }
 ]
