@@ -1,28 +1,58 @@
 [
     {
-        "title": "Pet Partner Testing",
-        "content": "must email or a time  Bethesda Noth Hospital  must have completed a work shop oe a on line course.  Contact Glenna",
-        "date": "2017-11-19",
-        "category": "blue",
-        "color": "#1386c9"
+        "title": "Reading with Elementary students",
+        "content": "10 a.m.  St Veronica Catholic School, 4475 Mt Carmel Tobasco Rd, Cincinnati, OH",
+        "date": "2017-12-01",
+        "category": "light blue",
+        "color": "#98f5ff"
     },
     {
-        "title": "PP Evaluation",
-        "content": "Call for a time  Locust Corner Church  917 Locust Corner Rd. Cincinnati, Ohio 45245.  Contact Karen",
-        "date": "2018-01-20",
+        "title": "Pet Partners/TPGC Therapy Team Evaluations",
+        "content": "9 a.m. to 3 p.m. Bethesda North Hospital  10500 Montgomery Rd, Cincinnati 45242",
+        "date": "2017-12-03",
         "category": "green"
     },
     {
-        "title": "PP Evaluation",
-        "content": "Call for a time  Locust Corner Church  917 Locust Corner Rd. Cincinnati, Ohio 45245.  Contact Karen",
+        "title": "Puppy Tales",
+        "content": "2 p.m.  Kenton County Public Library  502 Scott Blvd, Covington, Kentucky 41011",
+        "date": "2017-12-03",
+        "category": "orange"
+    },
+    {
+        "title": "Pet Partners/TPGC Therapy Team Evaluations",
+        "content": "9 a.m. to 3 p.m.  Locust Corner United Methodist Church  917 Locust Corner Rd, Cincinnati 45245",
         "date": "2017-12-09",
         "category": "green"
     },
     {
-        "title": "Pet Partner Testing",
-        "content": "must email for a time  Bethesda North Hospital  Must have done a PPWork Shop or a long Line Course- call for a testing time  Contact Glenna",
-        "date": "2017-12-03",
-        "category": "blue",
-        "color": "#1386c9"
+        "title": "Reading with Elementary students",
+        "content": "10 a.m.  St Veronica Catholic School, 4475 Mt Carmel Tobasco Rd, Cincinnati, OH",
+        "date": "2018-01-05",
+        "category": "light blue",
+        "color": "#98f5ff"
+    },
+    {
+        "title": "Pet Partners/TPGC Therapy Team Evaluations",
+        "content": "9 a.m. to 3 p.m.  Bethesda North Hospital  10500 Montgomery Rd, Cincinnati 45242",
+        "date": "2018-01-14",
+        "category": "green"
+    },
+    {
+        "title": "Pet Partners/TPGC Therapy Team Evaluations",
+        "content": "9 a.m. to 3 p.m.  Locust Corner United Methodist Church  917 Locust Corner Rd, Cincinnati 45245",
+        "date": "2018-01-20",
+        "category": "green"
+    },
+    {
+        "title": "Pet Partner/TPGC Therapy Pet Evaluations",
+        "content": "9:30 a.m. to 2 p.m. 3730 Cobb Rd, Williamsburg, OH 45176",
+        "date": "2018-02-03",
+        "category": "green"
+    },
+    {
+        "title": "Pet Partner/TPGC Therapy Team evaluations",
+        "content": "9 a.m. to 3 p.m.  Bethesda North Hospital  10500 Montgomery Rd, Cincinnati 45242",
+        "date": "2018-02-04",
+        "category": "green"
     }
 ]
