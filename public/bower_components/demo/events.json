@@ -32,6 +32,12 @@
         "color": "#98f5ff"
     },
     {
+        "title": "Puppy Tales",
+        "content": "2 p.m.  Kenton County Public Library  502 Scott Blvd, Covington, Kentucky 41011",
+        "date": "2018-01-07",
+        "category": "orange"
+    },
+    {
         "title": "Pet Partners/TPGC Therapy Team Evaluations",
         "content": "9 a.m. to 3 p.m.  Bethesda North Hospital  10500 Montgomery Rd, Cincinnati 45242",
         "date": "2018-01-14",
@@ -53,6 +59,12 @@
         "title": "Pet Partner/TPGC Therapy Team evaluations",
         "content": "9 a.m. to 3 p.m.  Bethesda North Hospital  10500 Montgomery Rd, Cincinnati 45242",
         "date": "2018-02-04",
+        "category": "green"
+    },
+    {
+        "title": "Science Night at Boyd E. Smith Elementary",
+        "content": "6 p.m. to 8 p.m.  Boyd E. Smith Elementary 1052 Jer Les St, Milford, OH 45150",
+        "date": "2018-02-06",
         "category": "green"
     },
     {
