@@ -27,7 +27,7 @@
     {
         "title": "Reading with Elementary students",
         "content": "10 a.m.  St Veronica Catholic School, 4475 Mt Carmel Tobasco Rd, Cincinnati, OH",
-        "date": "2018-01-05",
+        "date": "2018-01-12",
         "category": "light blue",
         "color": "#98f5ff"
     },
@@ -72,6 +72,24 @@
         "title": "Science Night at Boyd E. Smith Elementary",
         "content": "6 p.m. to 8 p.m.  Boyd E. Smith Elementary 1052 Jer Les St, Milford, OH 45150",
         "date": "2018-02-06",
+        "category": "green"
+    },
+    {
+        "title": "Pet Partners/TPGC Therapy Team Evaluations",
+        "content": "9 a.m. to 3 p.m.  Locust Corner United Methodist Church  917 Locust Corner Rd, Cincinnati 45245",
+        "date": "2018-02-17",
+        "category": "green"
+    },
+    {
+        "title": "Reading with Whiz Kids",
+        "content": "3:45 - 5:00  Goshen United Methodist Church  6710 Goshen Rd, Goshen, OH 45122",
+        "date": "2018-02-20",
+        "category": "orange"
+    },
+    {
+        "title": "Pet Partners/TPGC Therapy Team Evaluations",
+        "content": "9 a.m. to 3 p.m.  Locust Corner United Methodist Church  917 Locust Corner Rd, Cincinnati 45245",
+        "date": "2018-03-24",
         "category": "green"
     },
     {
