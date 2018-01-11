@@ -1,47 +1,14 @@
 [
+  {
+      "title": "Reading with Elementary Students",
+      "content": "10:00 a.m. to 10:45 a.m.  St. Veronica Catholic School, 4475 Mt Carmel Tobasco Rd., Cincinnati (Mt Carmel)",
+      "date": "2018-01-12",
+      "category": "orange"
+  },
     {
-        "title": "Reading with Elementary students",
-        "content": "10 a.m.  St Veronica Catholic School, 4475 Mt Carmel Tobasco Rd, Cincinnati, OH",
-        "date": "2017-12-01",
-        "category": "light blue",
-        "color": "#98f5ff"
-    },
-    {
-        "title": "Pet Partners/TPGC Therapy Team Evaluations",
-        "content": "9 a.m. to 3 p.m. Bethesda North Hospital  10500 Montgomery Rd, Cincinnati 45242",
-        "date": "2017-12-03",
-        "category": "green"
-    },
-    {
-        "title": "Puppy Tales",
-        "content": "2 p.m.  Kenton County Public Library  502 Scott Blvd, Covington, Kentucky 41011",
-        "date": "2017-12-03",
-        "category": "orange"
-    },
-    {
-        "title": "Pet Partners/TPGC Therapy Team Evaluations",
-        "content": "9 a.m. to 3 p.m.  Locust Corner United Methodist Church  917 Locust Corner Rd, Cincinnati 45245",
-        "date": "2017-12-09",
-        "category": "green"
-    },
-    {
-        "title": "Reading with Elementary students",
-        "content": "10 a.m.  St Veronica Catholic School, 4475 Mt Carmel Tobasco Rd, Cincinnati, OH",
-        "date": "2018-01-12",
-        "category": "light blue",
-        "color": "#98f5ff"
-    },
-    {
-        "title": "Ursuline Academy De-Stress (“Resting Before Testing”)",
-        "content": "1:30 - 3:30  Ursuline Academy  5535 Pfeiffer Rd, Cincinnati, OH 45242",
-        "date": "2018-01-05",
-        "category": "green",
-        "color": "#98f5ff"
-    },
-    {
-        "title": "Puppy Tales",
-        "content": "2 p.m.  Kenton County Public Library  502 Scott Blvd, Covington, Kentucky 41011",
-        "date": "2018-01-07",
+        "title": "Miami Middletown",
+        "content": "11:30 a.m. to 1 p.m.  Gardner-Harvey Library  4200 N University Blvd  Middletown, OH 45042",
+        "date": "2018-01-18",
         "category": "orange"
     },
     {
@@ -54,6 +21,12 @@
         "title": "Pet Partners/TPGC Therapy Team Evaluations",
         "content": "9 a.m. to 3 p.m.  Locust Corner United Methodist Church  917 Locust Corner Rd, Cincinnati 45245",
         "date": "2018-01-20",
+        "category": "green"
+    },
+    {
+        "title": "Stress Relief for UC Students",
+        "content": "12 p.m to 1 p.m.  UC Clifton Recreation Center",
+        "date": "2018-02-01",
         "category": "green"
     },
     {
@@ -87,6 +60,18 @@
         "category": "orange"
     },
     {
+        "title": "Stress Relief for UC Students",
+        "content": "12 p.m to 1 p.m.  UC Clifton Recreation Center",
+        "date": "2018-03-01",
+        "category": "green"
+    },
+    {
+        "title": "Stress Relief for UC Blue Ash Students",
+        "content": "12 p.m to 2 p.m.  Muntz Auditorium  9555 Plainfield Rd Blue Ash",
+        "date": "2018-03-06",
+        "category": "green"
+    },
+    {
         "title": "Pet Partners/TPGC Therapy Team Evaluations",
         "content": "9 a.m. to 3 p.m.  Locust Corner United Methodist Church  917 Locust Corner Rd, Cincinnati 45245",
         "date": "2018-03-24",
@@ -96,6 +81,24 @@
         "title": "Pet Partner/TPGC Therapy Team evaluations",
         "content": "9 a.m. to 3 p.m.  Bethesda North Hospital  10500 Montgomery Rd, Cincinnati 45242",
         "date": "2018-03-25",
+        "category": "green"
+    },
+    {
+        "title": "Stress Relief for UC Students",
+        "content": "12 p.m to 1 p.m.  UC Clifton Recreation Center",
+        "date": "2018-04-05",
+        "category": "green"
+    },
+    {
+        "title": "Pet Partners Handler Workshop",
+        "content": "9 a.m to 3 p.m.  Bethesda North Hospital 10500 Montgomery Rd, Cincinnati 45242",
+        "date": "2018-04-15",
+        "category": "green"
+    },
+    {
+        "title": "Stress Relief for Xavier Student Athletes",
+        "content": "11:30 a.m to 1:30 p.m.  Cintas Center",
+        "date": "2018-04-30",
         "category": "green"
     }
 ]
