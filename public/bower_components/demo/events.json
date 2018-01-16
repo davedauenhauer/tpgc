@@ -2,26 +2,20 @@
   {
       "title": "Reading with Elementary Students",
       "content": "10:00 a.m. to 10:45 a.m.  St. Veronica Catholic School, 4475 Mt Carmel Tobasco Rd., Cincinnati (Mt Carmel)",
-      "date": "2018-01-12",
-      "category": "orange"
+      "date": "2018-02-09",
+      "category": "green"
   },
     {
         "title": "Miami Middletown",
         "content": "11:30 a.m. to 1 p.m.  Gardner-Harvey Library  4200 N University Blvd  Middletown, OH 45042",
         "date": "2018-01-18",
-        "category": "orange"
-    },
-    {
-        "title": "Pet Partners/TPGC Therapy Team Evaluations",
-        "content": "9 a.m. to 3 p.m.  Bethesda North Hospital  10500 Montgomery Rd, Cincinnati 45242",
-        "date": "2018-01-14",
         "category": "green"
     },
     {
         "title": "Pet Partners/TPGC Therapy Team Evaluations",
         "content": "9 a.m. to 3 p.m.  Locust Corner United Methodist Church  917 Locust Corner Rd, Cincinnati 45245",
         "date": "2018-01-20",
-        "category": "green"
+        "category": "orange"
     },
     {
         "title": "Stress Relief for UC Students",
@@ -33,13 +27,13 @@
         "title": "Pet Partner/TPGC Therapy Pet Evaluations",
         "content": "9:30 a.m. to 2 p.m. 3730 Cobb Rd, Williamsburg, OH 45176",
         "date": "2018-02-03",
-        "category": "green"
+        "category": "orange"
     },
     {
         "title": "Pet Partner/TPGC Therapy Team evaluations",
         "content": "9 a.m. to 3 p.m.  Bethesda North Hospital  10500 Montgomery Rd, Cincinnati 45242",
         "date": "2018-02-04",
-        "category": "green"
+        "category": "orange"
     },
     {
         "title": "Science Night at Boyd E. Smith Elementary",
@@ -51,13 +45,13 @@
         "title": "Pet Partners/TPGC Therapy Team Evaluations",
         "content": "9 a.m. to 3 p.m.  Locust Corner United Methodist Church  917 Locust Corner Rd, Cincinnati 45245",
         "date": "2018-02-17",
-        "category": "green"
+        "category": "orange"
     },
     {
         "title": "Reading with Whiz Kids",
         "content": "3:45 - 5:00  Goshen United Methodist Church  6710 Goshen Rd, Goshen, OH 45122",
         "date": "2018-02-20",
-        "category": "orange"
+        "category": "green"
     },
     {
         "title": "Stress Relief for UC Students",
@@ -75,13 +69,13 @@
         "title": "Pet Partners/TPGC Therapy Team Evaluations",
         "content": "9 a.m. to 3 p.m.  Locust Corner United Methodist Church  917 Locust Corner Rd, Cincinnati 45245",
         "date": "2018-03-24",
-        "category": "green"
+        "category": "orange"
     },
     {
-        "title": "Pet Partner/TPGC Therapy Team evaluations",
+        "title": "Pet Partner/TPGC Therapy Team Evaluations",
         "content": "9 a.m. to 3 p.m.  Bethesda North Hospital  10500 Montgomery Rd, Cincinnati 45242",
         "date": "2018-03-25",
-        "category": "green"
+        "category": "orange"
     },
     {
         "title": "Stress Relief for UC Students",
@@ -93,12 +87,24 @@
         "title": "Pet Partners Handler Workshop",
         "content": "9 a.m to 3 p.m.  Bethesda North Hospital 10500 Montgomery Rd, Cincinnati 45242",
         "date": "2018-04-15",
-        "category": "green"
+        "category": "orange"
+    },
+    {
+        "title": "Pet Partner/TPGC Therapy Team evaluations",
+        "content": "9 a.m. to 3 p.m.  Bethesda North Hospital  10500 Montgomery Rd, Cincinnati 45242",
+        "date": "2018-04-29",
+        "category": "orange"
     },
     {
         "title": "Stress Relief for Xavier Student Athletes",
         "content": "11:30 a.m to 1:30 p.m.  Cintas Center",
         "date": "2018-04-30",
         "category": "green"
+    },
+    {
+        "title": "Pet Partner/TPGC Therapy Team evaluations",
+        "content": "9 a.m. to 3 p.m.  Bethesda North Hospital  10500 Montgomery Rd, Cincinnati 45242",
+        "date": "2018-05-12",
+        "category": "orange"
     }
 ]
